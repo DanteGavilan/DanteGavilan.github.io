@@ -37,6 +37,44 @@ nav a:hover{
     color: black;
 }
 
+@media (max-width:700px){
+    header{
+        flex-direction:  column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+h1 {
+    font-size: 65px;
+    color: antiquewhite;
+    background: rgb(34, 71, 139);
+    width: 700px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h2 {
+color: antiquewhite;
+background: rgb(34, 71, 139);
+width: 700px;
+margin: auto;
+border-radius: 10px;
+
+}
+
+p{
+    color: antiquewhite;
+    background: rgb(34, 71, 139);
+    width: 700px;
+    border-radius: 15px;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -50,39 +88,5 @@ button {
     color: antiquewhite;
     border: 0;
     background-color: rgb(34, 71, 139);
-    border-radius: 5px;
-}
-
-h1 {
-    font-size: 65px;
-    color: antiquewhite;
-    background: rgb(34, 71, 139);
-    width: 700px;
-    margin: auto;
-    border-radius: 20px;
-}
-
-h2{
-    color: antiquewhite;
-    background: rgb(34, 71, 139);
-    width: 700px;
-    margin: auto;
-    border-radius: 20px;
-}
-
-.resolucion{
-width: 99%;
-text-align: center;
-}
-
-/**Computadora**/
-
-@media (max-width: 767px) {
-    .desktop {display: none;}
-}
-
-/**Celular**/
-
-@media (min-width: 991px) {
-    .celular {display: none;}
+    border-radius: 10px;
 }
