@@ -62,20 +62,19 @@ h2 {
     width: 700px;
     margin: auto;
     border-radius: 10px;
-  }
+    
+    }
+    
+    p{
+        color: antiquewhite;
+        background: rgb(34, 71, 139);
+        width: 600px;
+        border-radius: 15px;
+        font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+        font-size: 20px;
+        margin: auto;
+    }
 
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 10px;
-    cursor: pointer;
-    font-family:sans-serif;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size: 20px;
-    color: antiquewhite;
-    border: 0;
-    background-color: rgb(34, 71, 139);
-    border-radius: 5px;
-}
+    img{
+        height: 1000px;
+    }
