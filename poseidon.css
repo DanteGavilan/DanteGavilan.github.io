@@ -56,6 +56,25 @@ h1 {
     border-radius: 20px;
 }
 
+h2 {
+color: antiquewhite;
+background: rgb(34, 71, 139);
+width: 700px;
+margin: auto;
+border-radius: 10px;
+
+}
+
+p{
+    color: antiquewhite;
+    background: rgb(34, 71, 139);
+    width: 700px;
+    border-radius: 15px;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -69,23 +88,5 @@ button {
     color: antiquewhite;
     border: 0;
     background-color: rgb(34, 71, 139);
-    border-radius: 5px;
-}
-
-p{
-    color: antiquewhite;
-    background: rgb(34, 71, 139);
-    width: 1000px;
-    border-radius: 15px;
-    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
-    font-size: 20px;
-    margin: auto;
-}
-
-h2 {
-    color: antiquewhite;
-    background: rgb(34, 71, 139);
-    width: 700px;
-    margin: auto;
     border-radius: 10px;
-  }
+}
